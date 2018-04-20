@@ -1,0 +1,8 @@
+version: '3'
+services:
+  chef_docker_app:
+    volumes:
+        - ./:/home
+    image: pete/chefdk_docker
+    stdin_open: "true"
+    tty: "true"
