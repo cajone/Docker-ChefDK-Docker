@@ -3,6 +3,6 @@ services:
   chef_docker_app:
     volumes:
         - ./:/home
-    image: pete/chefdk_docker
+    image: cajone/chefdk_docker
     stdin_open: "true"
     tty: "true"
